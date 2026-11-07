@@ -20,8 +20,8 @@ Cada integrante trabaja **solo en su archivo** de `src/`. Asi casi no hay confli
 | 2 | `src/Parte2_Movimiento.h` | Alejandra Galvez | Movimiento lateral con teclado y limites |
 | 3 | `src/Parte3_Nitro.h` | Jadhe Sotelo | Nitro con Shift, llama y lineas de velocidad |
 | 4 | `src/Parte4_Rocas.h` | Miguel Clavo | Rocas: aparicion, caida y puntaje |
-| 5 | `src/Parte5_Colisiones.h` | | Choques, vidas y corazones |
-| 6 | `src/Parte6_Fondo.h` | | Fondo, titulo con puntaje, game over y reinicio |
+| 5 | `src/Parte5_Colisiones.h` | Alexander Gabino | Choques, vidas y corazones |
+| 6 | `src/Parte6_Fondo.h` | Jhon Velasquez | Fondo, titulo con puntaje, game over y reinicio |
 
 **Parte comun** (no se edita sin avisar al grupo): `main.cpp`, `src/Juego.h`, `src/Shader.*`, `res/Shader/*`.
 
