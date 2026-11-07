@@ -1,3 +1,4 @@
+
 // ============================================================
 //  PARTE 2 - MOVIMIENTO LATERAL DEL AVION
 //  Responsable:
@@ -19,8 +20,36 @@
 
 void actualizarMovimiento(GLFWwindow* window)
 {
-	// Código de la parte 2: movimiento lateral del avion
+    // Código de la parte 2: movimiento lateral del avion
 
-	// Mientras no esté terminada la Parte 3 usa esta linea para evitar errores al compilar:
-	actualizarNitro(window, 0);
+    int direccion = 0;
+
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS ||
+        glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
+    {
+        direccion = -1;
+    }
+
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS ||
+        glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
+    {
+        direccion = 1;
+    }
+
+    direccionAvion = direccion;
+
+    // Mientras no esté terminada la Parte 3 usa esta linea para evitar errores al compilar:
+    actualizarNitro(window, direccion);
+
+    avionX += direccion * VELOCIDAD_AVION * factorNitro * deltaTime;
+
+    if (avionX < -LIMITE_X)
+    {
+        avionX = -LIMITE_X;
+    }
+
+    if (avionX > LIMITE_X)
+    {
+        avionX = LIMITE_X;
+    }
 }
