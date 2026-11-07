@@ -1,0 +1,70 @@
+## ==========================================
+## ARCHIVOS TEMPORALES Y DE COMPILACIÓN DE VS
+## ==========================================
+
+# Archivos de usuario y caché de Visual Studio
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+Generated Files/
+
+# Carpetas de salida de compilación estándar
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Archivos intermedios y binarios generados por el compilador
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+## ==========================================
+## EXCEPCIÓN: FORZAR RASTREO DE DEPENDENCIAS
+## ==========================================
+!Dependencias/
+!Dependencias/**
+!Dependencias/**/
+!Dependencias/**/*
