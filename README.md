@@ -18,7 +18,7 @@ Cada integrante trabaja **solo en su archivo** de `src/`. Asi casi no hay confli
 |---|---|---|---|
 | 1 | `src/Parte1_Avion.h` | Gary Añanga | Dibujo del avion con triangulos |
 | 2 | `src/Parte2_Movimiento.h` | Alejandra Galvez | Movimiento lateral con teclado y limites |
-| 3 | `src/Parte3_Nitro.h` | | Nitro con Shift, llama y lineas de velocidad |
+| 3 | `src/Parte3_Nitro.h` | Jadhe Sotelo | Nitro con Shift, llama y lineas de velocidad |
 | 4 | `src/Parte4_Rocas.h` | Miguel Clavo | Rocas: aparicion, caida y puntaje |
 | 5 | `src/Parte5_Colisiones.h` | | Choques, vidas y corazones |
 | 6 | `src/Parte6_Fondo.h` | | Fondo, titulo con puntaje, game over y reinicio |
